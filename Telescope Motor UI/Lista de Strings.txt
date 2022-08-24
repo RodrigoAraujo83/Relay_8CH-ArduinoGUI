@@ -1,0 +1,32 @@
+'H'           =>              CALL HOME FUNCTION
+'M'           =>              CALL MOON FUNCTION
+
+'U'           =>              SET SPEED MOTORS TO 20% SPEED/UP
+'I'           =>              SET SPEED MOTORS TO 30% SPEED/UP
+'O'           =>              SET SPEED MOTORS TO 40% SPEED/UP
+'P'           =>              SET SPEED MOTORS TO 50% SPEED/UP
+
+'u'           =>              SET SPEED MOTORS TO 20% SPEED/DOWN
+'i'           =>              SET SPEED MOTORS TO 30% SPEED/DOWN
+'o'           =>              SET SPEED MOTORS TO 40% SPEED/DOWN
+'p'           =>              SET SPEED MOTORS TO 50% SPEED/DOWN
+
+'z'           =>              SET SPEED MOTORS TO 20% SPEED/LEFT
+'x'           =>              SET SPEED MOTORS TO 30% SPEED/LEFT
+'c'           =>              SET SPEED MOTORS TO 40% SPEED/LEFT
+'v'           =>              SET SPEED MOTORS TO 50% SPEED/LEFT
+
+'Z'           =>              SET SPEED MOTORS TO 20% SPEED/RIGHT
+'X'           =>              SET SPEED MOTORS TO 30% SPEED/RIGHT
+'C'           =>              SET SPEED MOTORS TO 40% SPEED/RIGHT
+'V'           =>              SET SPEED MOTORS TO 50% SPEED/RIGHT
+
+'J'           =>              SET STEP MOTORS TO ONE - CLOCKWISE
+'N'           =>              SET STEP MOTORS TO TWO - CLOCKWISE
+'K'           =>              SET STEP MOTORS TO FOUR -CLOCKWISE
+'B'           =>              SET STEP MOTORS TO SIX - CLOCKWISE
+
+'j'           =>              SET STEP MOTORS TO ONE - CONTERCLOCKWISE
+'n'           =>              SET STEP MOTORS TO TWO - CONTERCLOCKWISE
+'k'           =>              SET STEP MOTORS TO FOUR -CONTERCLOCKWISE
+'b'           =>              SET STEP MOTORS TO SIX - CONTERCLOCKWISE

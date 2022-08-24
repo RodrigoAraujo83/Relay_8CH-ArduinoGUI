@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38D4430F-AB40-479A-B30D-63004BFF88F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Telescope_Motor_UI</RootNamespace>
+    <AssemblyName>Telescope Motor UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_blank_blue_14984.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homelinear_106213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_blank_green_14986.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lovepik-blue-technology-internet-background-image_400140056.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_477690960_sdhceo15S7QyHalAPsNPlPQtfbovebpw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usb_port_icon_135070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usboffline_usb_3556.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbconnected_theapplication_usb_2913.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directionalarrow_87507.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downarrow_87468.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarrow_87483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowpointingleft_87473.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plussign_87467.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minussign_87504.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_circle_outline_icon_139029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left_15601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right_15600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_top_15603.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_dw_15603.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus_36851.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus_36877.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\astronomyplanetariumspyglasstelescopevision_123112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_top_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_circle_outline_icon_1390291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spacefm_103907.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arduino_22429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft_visual_studio_code_alt_macos_bigsur_icon_189956.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_delete_17889.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_closethesession_close_6317.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night_sky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon_worldtime_luna_1465.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power_on_off_switch_exit_icon_141963.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on-off-power-button_icon-icons.com_53938.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-on-off_icon-icons.com_54046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visual_studio_code_icon_191770.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft_visual_studio_macos_bigsur_icon_189958.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_bottom_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usboffline_usb_35561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbonline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usboffline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usb_conectado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbconnected.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

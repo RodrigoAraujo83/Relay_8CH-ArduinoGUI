@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Channel_Reley", "8_Channel_Reley.csproj", "{836EF9CA-5D00-4C55-83D8-5CE243EB0020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836EF9CA-5D00-4C55-83D8-5CE243EB0020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836EF9CA-5D00-4C55-83D8-5CE243EB0020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836EF9CA-5D00-4C55-83D8-5CE243EB0020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836EF9CA-5D00-4C55-83D8-5CE243EB0020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FEAC9EC-8C6F-49F5-8B22-A70A2E22D7B0}
+	EndGlobalSection
+EndGlobal
